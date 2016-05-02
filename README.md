@@ -1,2 +1,1 @@
-# web_exercise
-web前端练习
+# web前端练习
