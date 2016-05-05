@@ -40,6 +40,7 @@ team_name{
     float: right;
     background: #fff;
     border: 1px solid #999;
+    overflow: auto;
 }
 
 .members_logo{
