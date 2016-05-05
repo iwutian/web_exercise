@@ -48,6 +48,7 @@ team_name{
     display: block;
     margin: 20px;
     border: 1px solid #999;
+    overflow: auto;
 }
 
 .middle {
