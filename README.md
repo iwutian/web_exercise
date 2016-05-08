@@ -9,3 +9,7 @@ day 2
 
 day 3
 - learn float
+
+day 4 
+- learn position and center
+
