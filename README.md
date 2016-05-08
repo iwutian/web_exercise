@@ -14,4 +14,7 @@ day 4
 - learn position and center
 
 day 5
-- 
+- clearfix
+
+day 6
+- summary
