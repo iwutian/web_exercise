@@ -1,0 +1,15 @@
+列出被 ignored 的文件
+git lsfiles --others --ignored --exclude-standard
+
+分支
+
+ git branch
+git checkout 
+
+
+
+git fetch origin
+
+git pull 
+
+git push origin
