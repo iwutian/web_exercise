@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹出层</title>
+    <style>
+        #close{
+            background: url(img/close.png) no-repeat;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            right: 5px;
+            top:15;
+            text-indent: -999em;
+        }
+        #mask{
+            background-color: #ccc;
+            opacity: 0.5;
+            filter:alpha(opacity=50);
+            left: 0;
+            top: 0;
+            z-index: 1000;
+        }
+        #login{
+            position: fixed;
+            z-index: 1001;
+        }
+        .loginCon{
+            position: relative;
+            width: 670px;
+            height: 380px;
+            background: url(img/loginBg.png) #2a2c2e center center no-repeat;
+        }
+    </style>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container" id="nav">
+            <h1 id="logo"><a href="/">慕课网</a></h1>
+            <ul class="l" id="nav-item">
+                <li><a href="/course/list">课程</a></li>
+            </ul>
+            <div id="login-area">
+                <button id="btnLogin" hidefocus="true" class="login-btn">登录</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="slider-container">
+            <div id="slider">
+                <ul id="sliderUl">
+                    <li id="bg01"></li>
+                </ul>
+                <div id="dotBox"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
