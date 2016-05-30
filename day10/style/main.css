@@ -1,0 +1,78 @@
+/* reset 区域 */
+*,body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+
+/* main 区域 */
+#container{
+  min-width: 1280px;
+  background-color: red;
+}
+#header {
+    width: 100%;
+    height: 57px;
+    line-height: 57px;
+    background-color: white;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#header .logo{
+    margin-left:60px;
+    font-size: 21px;
+    font-family: "黑体";
+    text-indent: 42px;
+    background: url(../image/logo.png) left center no-repeat;
+}
+
+#header .nav li{
+    width:65px;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+}
+#header .nav li:hover a{
+    color: black;
+}
+#header .login_btn{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #e34f52;
+    text-indent: 19px;
+    background: url(../image/user_icon.png) left center no-repeat;
+    margin-right: 67px;
+}
+
+#header .nav{
+    height: 100%;
+    margin-right: 37px;
+}
+#header .nav li a{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #7c7a82;
+    transition: all 0.5s;
+}
+
+.active{
+    border-bottom: 5px solid #e34e52;
+}
+#header .nav .active a{
+    color: #e34e52
+}
+#header .nav li{
+    margin-left: 44px;
+}
